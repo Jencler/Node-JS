@@ -1,0 +1,19 @@
+### Para Inicio 
+GET http://localhost:1234/
+
+### Para API ditto
+GET http://localhost:1234/pokemon/ditto
+
+### Para POST 
+POST http://localhost:1234/pokemon
+Content-Type: "application/json"
+
+{
+  "name":"ditto",
+  "type":"normal",
+  "moves":[
+    "transform"
+  ]
+}
+
+
